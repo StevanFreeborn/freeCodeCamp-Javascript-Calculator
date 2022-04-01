@@ -1,0 +1,23 @@
+/*Bootstrap Overrides*/
+.btn {
+    border-radius: 0;
+}
+
+.container-fluid {
+    max-width: 300px;
+    min-width: 250px;
+}
+
+/*Site Specific*/
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-wrapper {
+    border: 5px solid black;
+    background-color: black;
+}
+
