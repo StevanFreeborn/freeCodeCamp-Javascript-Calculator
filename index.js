@@ -1,3 +1,6 @@
+// initially working through logic for each
+// button in separate functions.
+
 function clearDisplay(){
     $("#intermediateDisplay").html("0");
     $("#display").html("0");
@@ -87,7 +90,3 @@ function calculate(button) {
     $("#intermediateDisplay").html(button.value);
     $("#display").html(result);
 }
-
-// function updateDisplay(button)
-// {
-// }
